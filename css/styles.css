@@ -1,0 +1,99 @@
+/*Backgrounds*/
+
+#home {
+      background: #96858F;
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      height:900px;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
+
+#intro {
+      background: #6d7993;
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      height:800px;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
+
+#projects {
+      background: #9099a2;
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      height:800px;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
+
+/*Slants for Backgrounds*/
+
+#home:after {
+      content: "";
+      position: absolute;
+      z-index: 1;
+      pointer-events: none;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      border-bottom: 250px solid #6d7993;
+      border-left: 2000px solid transparent;
+      z-index: 1;
+}
+
+#intro:after {
+      content: "";
+      position: absolute;
+      z-index: 1;
+      pointer-events: none;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      border-bottom: 250px solid #9099a2;
+      border-right: 2000px solid transparent;
+      z-index: 1;
+}
+
+#projects:after {
+      content: "";
+      position: absolute;
+      z-index: 1;
+      pointer-events: none;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      border-bottom: 250px solid #d5d5d5;
+      border-left: 2000px solid transparent;
+      z-index: 1;
+}
