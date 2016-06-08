@@ -1,7 +1,7 @@
 /*Backgrounds*/
 
 #home {
-      background: #96858F;
+      background: #99d3df;
       position: relative;
       width: 100%;
       overflow: hidden;
@@ -16,7 +16,7 @@
 }
 
 #intro {
-      background: #6d7993;
+      background: #88bbd6;
       position: relative;
       width: 100%;
       overflow: hidden;
@@ -31,7 +31,7 @@
 }
 
 #projects {
-      background: #9099a2;
+      background: #cdcdcd;
       position: relative;
       width: 100%;
       overflow: hidden;
@@ -59,7 +59,7 @@
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
-      border-bottom: 250px solid #6d7993;
+      border-bottom: 250px solid #88bbd6;
       border-left: 2000px solid transparent;
       z-index: 1;
 }
@@ -76,7 +76,7 @@
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
-      border-bottom: 250px solid #9099a2;
+      border-bottom: 250px solid #cdcdcd;
       border-right: 2000px solid transparent;
       z-index: 1;
 }
@@ -93,7 +93,13 @@
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
-      border-bottom: 250px solid #d5d5d5;
+      border-bottom: 250px solid #e9e9e9;
       border-left: 2000px solid transparent;
       z-index: 1;
+}
+
+/*Text Colors*/
+
+body {
+      color: #fdf9f3;
 }
