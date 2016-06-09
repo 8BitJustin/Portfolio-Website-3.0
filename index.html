@@ -89,7 +89,7 @@
 <script>
   
   $(document).ready(function(){
-  $('.nav li a, #home').click(function() {
+  $('.nav li a, .navbar-header a').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
     && location.hostname == this.hostname) {
       var $target = $(this.hash);
