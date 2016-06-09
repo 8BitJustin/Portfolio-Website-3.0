@@ -5,7 +5,7 @@
       position: relative;
       width: 100%;
       overflow: hidden;
-      height:900px;
+      height:750px;
       background-repeat: no-repeat;
       background-position: center center;
       background-attachment: fixed;
@@ -32,6 +32,21 @@
 
 #projects {
       background: #cdcdcd;
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      height:800px;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
+
+#knowledge {
+      background: #ddd;
       position: relative;
       width: 100%;
       overflow: hidden;
@@ -93,8 +108,25 @@
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
-      border-bottom: 250px solid #e9e9e9;
+      border-bottom: 250px solid #ddd;
       border-left: 2000px solid transparent;
+      z-index: 1;
+}
+
+#knowledge:after {
+      content: "";
+      position: absolute;
+      z-index: 1;
+      pointer-events: none;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      border-bottom: 250px solid #ddd;
+      border-right: 2000px solid transparent;
       z-index: 1;
 }
 
@@ -102,4 +134,18 @@
 
 body {
       color: #fdf9f3;
+}
+
+/*NavBar*/
+
+.navbar {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+}
+
+/*Home Page*/
+
+.homeIntro {
+      margin-top: 100px;
 }
