@@ -1,13 +1,15 @@
 /*Backgrounds*/
 
 #home {
-      background: #99d3df;
+/*    background: #99d3df;*/
+      background-image: url('../img/pencilBreak.jpg');
       position: relative;
       width: 100%;
       overflow: hidden;
       height:750px;
       background-repeat: no-repeat;
-      background-position: center center;
+/*    Commenting bgposition out keeps background from skipping due to parallax*/
+/*    background-position: center center;*/
       background-attachment: fixed;
       -webkit-background-size: cover;
       -moz-background-size: cover;
@@ -157,6 +159,10 @@ body {
    background-color: transparent;
    background: transparent;
    border-color: transparent;
+}
+
+.collapse .nav li a {
+      color: #dee7ef;
 }
 
 /*Home Page*/
