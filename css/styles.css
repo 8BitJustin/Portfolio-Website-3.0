@@ -20,7 +20,7 @@
       position: relative;
       width: 100%;
       overflow: hidden;
-      height:800px;
+      height: 600px;
       background-repeat: no-repeat;
       background-position: center center;
       background-attachment: fixed;
@@ -30,12 +30,12 @@
       background-size: cover;
 }
 
-#projects {
+#portfolio {
       background: #cdcdcd;
       position: relative;
       width: 100%;
       overflow: hidden;
-      height:800px;
+      height: 600px;
       background-repeat: no-repeat;
       background-position: center center;
       background-attachment: fixed;
@@ -50,7 +50,22 @@
       position: relative;
       width: 100%;
       overflow: hidden;
-      height:800px;
+      height: 600px;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
+
+#goals {
+      background: #F2635F;
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      height: 600px;
       background-repeat: no-repeat;
       background-position: center center;
       background-attachment: fixed;
@@ -96,7 +111,7 @@
       z-index: 1;
 }
 
-#projects:after {
+#portfolio:after {
       content: "";
       position: absolute;
       z-index: 1;
@@ -125,7 +140,7 @@
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
-      border-bottom: 250px solid #ddd;
+      border-bottom: 250px solid #F2635F;
       border-right: 2000px solid transparent;
       z-index: 1;
 }
@@ -146,6 +161,30 @@ body {
 
 /*Home Page*/
 
-.homeIntro {
-      margin-top: 100px;
+.homeHeader {
+      margin-top: 250px;
+}
+
+/*Intro Page*/
+
+.introHeader {
+      margin-top: 150px;
+}
+
+/*Portfolio Page*/
+
+.portfolioHeader {
+      margin-top: 150px;
+}
+
+/*Knowledge Page*/
+
+.knowledgeHeader {
+      margin-top: 150px;
+}
+
+/*Goals Page*/
+
+.goalsHeader {
+      margin-top: 200px;
 }
