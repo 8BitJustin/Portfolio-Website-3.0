@@ -2,11 +2,11 @@
 
 #home {
 /*    background: #99d3df;*/
-      background-image: url('../img/pencilBreak.jpg');
+      background-image: url('../img/sunSet.jpg');
       position: relative;
       width: 100%;
       overflow: hidden;
-      height:750px;
+      height: 800px;
       background-repeat: no-repeat;
 /*    Commenting bgposition out keeps background from skipping due to parallax*/
 /*    background-position: center center;*/
@@ -161,9 +161,15 @@ body {
    border-color: transparent;
 }
 
+.navbar .container .navbar-header a {
+      color: #dee7ef;
+}
+
 .collapse .nav li a {
       color: #dee7ef;
 }
+
+
 
 /*Home Page*/
 
