@@ -1,3 +1,4 @@
+
 /*Backgrounds*/
 
 #home {
@@ -18,11 +19,11 @@
 }
 
 #intro {
-      background: #88bbd6;
+      background: #fff;
       position: relative;
       width: 100%;
       overflow: hidden;
-      height: 600px;
+      height: 800px;
       background-repeat: no-repeat;
       background-position: center center;
       background-attachment: fixed;
@@ -33,7 +34,7 @@
 }
 
 #portfolio {
-      background: #cdcdcd;
+      background: #4e4d75;
       position: relative;
       width: 100%;
       overflow: hidden;
@@ -91,7 +92,7 @@
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
-      border-bottom: 250px solid #88bbd6;
+      border-bottom: 250px solid #fff;
       border-left: 2000px solid transparent;
       z-index: 1;
 }
@@ -108,7 +109,7 @@
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
-      border-bottom: 250px solid #cdcdcd;
+      border-bottom: 250px solid #4e4d75;
       border-right: 2000px solid transparent;
       z-index: 1;
 }
@@ -156,8 +157,8 @@ body {
 /*NavBar*/
 
 .navbar {
-      background-color: transparent;
-      background: transparent;
+      background-color: #FFA812;
+      background: #FFA812;
       border-color: transparent;
 }
 
@@ -187,8 +188,27 @@ body {
 
 /*Intro Page*/
 
+#intro {
+      padding-top: 100px;
+}
+
 .introHeader {
-      margin-top: 150px;
+      font-size: 3em;
+}
+
+.introPara {
+      font-size: 1.7em;
+      border-top: 2px solid #FFA812;
+      padding-top: 10px;
+}
+
+#intro {
+      color: #4e4d75;
+}
+
+#profilePic {
+      max-width: 80%;
+      border-radius: 5% 40%;
 }
 
 /*Portfolio Page*/
