@@ -215,6 +215,61 @@ body {
       margin-top: 150px;
 }
 
+.my-icon {
+    position: relative;
+}
+.my-icon > i {
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    border: 10em solid transparent;
+    border-radius: 10em;
+    margin-left: -10em;
+    border-right: 10em solid white;
+    left: 1em;
+    top: 4em;
+}
+.my-icon > i+i {
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    border: 10em solid transparent;
+    border-radius: 10em;
+    border-left: 10em solid white;
+    left: -1em;
+    top: 4em;
+}
+.my-icon > i+i+i {
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    border: 10em solid transparent;
+    border-radius: 10em;
+    border-top: 10em solid white;
+    left: 0em;
+    top: 3em;
+}
+.my-icon > i+i+i+i {
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    border: 10em solid transparent;
+    border-radius: 10em;
+    margin-top: -10em;
+    border-bottom: 10em solid white;
+    left: 0em;
+    top: 15em;
+}
+
+
 /*Knowledge Page*/
 
 .knowledgeHeader {
