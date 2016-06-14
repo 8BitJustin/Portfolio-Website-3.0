@@ -23,7 +23,7 @@
       position: relative;
       width: 100%;
       overflow: hidden;
-      height: 800px;
+      height: 680px;
       background-repeat: no-repeat;
       background-position: center center;
       background-attachment: fixed;
@@ -189,7 +189,8 @@ body {
 /*Intro Page*/
 
 #intro {
-      padding-top: 100px;
+      color: #4e4d75;
+      margin-top: 10px;
 }
 
 .introHeader {
@@ -202,11 +203,8 @@ body {
       padding-top: 10px;
 }
 
-#intro {
-      color: #4e4d75;
-}
-
 #profilePic {
+
       max-width: 80%;
       border-radius: 5% 40%;
 }
@@ -228,3 +226,30 @@ body {
 .goalsHeader {
       margin-top: 200px;
 }
+
+/*Media Queries*/
+
+@media (min-width: 992px) and (max-width: 1500px) {
+      #intro {
+            height: 800px;
+      }
+}
+
+@media (max-width: 991px) {
+      #intro {
+            height: 1000px;
+      }
+      #profilePic {
+            margin-top: 30px;
+            width: 50%;
+      }
+}
+
+
+
+
+
+
+
+
+
