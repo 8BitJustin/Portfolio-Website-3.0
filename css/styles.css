@@ -211,12 +211,76 @@ body {
 
 /*Portfolio Page*/
 
-.test {
-      width: 280px;
-      height: 280px;
-      background: white;
-      -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-      clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+/*Portfolio Page*/
+
+#sites a {
+      width: 150px;
+      height: 150px;
+      overflow:hidden;
+      display:inline-block;
+      background-color: white;
+      background-position: center;
+      background-attachment: fixed;
+      position: relative;
+    
+
+    
+      -webkit-backface-visibility:hidden; /* to reduce pixelisation on borders in chrome */
+    
+      -webkit-transform-origin:0 0;
+      -ms-transform-origin:0 0;
+      transform-origin:0 0;
+    
+    
+      -webkit-clip-path: polygon(50% 20%, 0% 100%, 100% 100%);
+      clip-path: polygon(50% 20%, 0% 100%, 100% 100%);
+}
+
+#apps a {
+      width: 150px;
+      height: 150px;
+      overflow:hidden;
+      display:inline-block;
+      background-color: #ff00ff;
+      background-position: center;
+      background-attachment: fixed;
+      position: relative;
+      left: 75px;
+      top: -35px;
+
+    
+      -webkit-backface-visibility:hidden; /* to reduce pixelisation on borders in chrome */
+    
+      -webkit-transform-origin:0 0;
+      -ms-transform-origin:0 0;
+      transform-origin:0 0;
+    
+    
+      -webkit-clip-path: polygon(50% 20%, 0% 100%, 100% 100%);
+      clip-path: polygon(50% 20%, 0% 100%, 100% 100%);
+}
+
+#github a {
+      width: 150px;
+      height: 150px;
+      overflow:hidden;
+      display:inline-block;
+      background-color: #7cb9e6;
+      background-position: center;
+      background-attachment: fixed;
+      position: relative;
+      top: -70px;
+
+    
+      -webkit-backface-visibility:hidden; /* to reduce pixelisation on borders in chrome */
+    
+      -webkit-transform-origin:0 0;
+      -ms-transform-origin:0 0;
+      transform-origin:0 0;
+    
+    
+      -webkit-clip-path: polygon(50% 20%, 0% 100%, 100% 100%);
+      clip-path: polygon(50% 20%, 0% 100%, 100% 100%);
 }
 
 /*Knowledge Page*/
@@ -246,6 +310,9 @@ body {
       #profilePic {
             margin-top: 30px;
             width: 50%;
+      }
+      #apps a {
+            left: 0px;
       }
 }
 
