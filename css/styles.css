@@ -38,7 +38,7 @@
       position: relative;
       width: 100%;
       overflow: hidden;
-      height: 600px;
+      height: 640px;
       background-repeat: no-repeat;
       background-position: center center;
       background-attachment: fixed;
@@ -211,20 +211,31 @@ body {
 
 /*Portfolio Page*/
 
-/*Portfolio Page*/
+.portStory {
+      margin-top: 70px;
+}
+
+#portHeader {
+      font-size: 3em;
+}
+
+#portPara {
+      font-size: 1.7em;
+}
+
+
 
 #sites a {
-      width: 150px;
-      height: 150px;
+      width: 500px;
+      height: 500px;
       overflow:hidden;
       display:inline-block;
       background-color: white;
       background-position: center;
       background-attachment: fixed;
       position: relative;
-    
-
-    
+      top: -100px;
+      margin: 0;
       -webkit-backface-visibility:hidden; /* to reduce pixelisation on borders in chrome */
     
       -webkit-transform-origin:0 0;
@@ -237,16 +248,16 @@ body {
 }
 
 #apps a {
-      width: 150px;
-      height: 150px;
+      width: 400px;
+      height: 400px;
       overflow:hidden;
       display:inline-block;
       background-color: #ff00ff;
       background-position: center;
       background-attachment: fixed;
       position: relative;
-      left: 75px;
-      top: -35px;
+      left: 50px;
+      top: -505px;
 
     
       -webkit-backface-visibility:hidden; /* to reduce pixelisation on borders in chrome */
@@ -261,16 +272,16 @@ body {
 }
 
 #github a {
-      width: 150px;
-      height: 150px;
+      width: 300px;
+      height: 300px;
       overflow:hidden;
       display:inline-block;
       background-color: #7cb9e6;
       background-position: center;
       background-attachment: fixed;
       position: relative;
-      top: -70px;
-
+      top: -810px;
+      left: 100px;
     
       -webkit-backface-visibility:hidden; /* to reduce pixelisation on borders in chrome */
     
@@ -311,8 +322,13 @@ body {
             margin-top: 30px;
             width: 50%;
       }
-      #apps a {
-            left: 0px;
+      #portfolio {
+            height: 1000px;
+      }
+      .portStory {
+            position: relative;
+            top: -700px;
+            margin-top: 0px;
       }
 }
 
