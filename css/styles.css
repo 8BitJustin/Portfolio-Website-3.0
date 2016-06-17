@@ -53,7 +53,7 @@
       position: relative;
       width: 100%;
       overflow: hidden;
-      height: 600px;
+      height: 640px;
       background-repeat: no-repeat;
       background-position: center center;
       background-attachment: fixed;
@@ -212,7 +212,7 @@ body {
 
 /*Portfolio Page*/
 
-.portStory {
+.portText {
       margin-top: 70px;
       padding-right: 150px;
 }
@@ -224,8 +224,6 @@ body {
 #portPara {
       font-size: 1.7em;
 }
-
-
 
 #sites a {
       width: 500px;
@@ -272,8 +270,7 @@ body {
       -webkit-transform-origin:0 0;
       -ms-transform-origin:0 0;
       transform-origin:0 0;
-    
-    
+        
       -webkit-clip-path: polygon(50% 20%, 0% 100%, 100% 100%);
       clip-path: polygon(50% 20%, 0% 100%, 100% 100%);
 }
@@ -296,7 +293,6 @@ body {
       -ms-transform-origin:0 0;
       transform-origin:0 0;
     
-    
       -webkit-clip-path: polygon(50% 20%, 0% 100%, 100% 100%);
       clip-path: polygon(50% 20%, 0% 100%, 100% 100%);
 }
@@ -306,6 +302,23 @@ body {
 #knowledge {
       color: #4e4d75;
 }
+
+.knowledgeText {
+      margin-top: 80px;
+      padding-left: 150px;
+}
+
+.knowledgeHeader {
+      font-size: 3em;
+}
+
+.knowledgePara {
+      font-size: 1.7em;
+}
+
+
+/*For Skills Chart*/
+
 
 /*Goals Page*/
 
