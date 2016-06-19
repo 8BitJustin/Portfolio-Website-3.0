@@ -215,6 +215,7 @@ body {
 .portText {
       margin-top: 70px;
       padding-right: 150px;
+      position: relative;
 }
 
 #portHeader {
@@ -304,7 +305,7 @@ body {
 }
 
 .knowledgeText {
-      margin-top: 80px;
+      margin-top: 60px;
       padding-left: 150px;
 }
 
@@ -319,58 +320,55 @@ body {
 
 /*For Skills Chart*/
 
-.progress{
-      width: 150px;
-      height: 240px;
-}
-.progress .track, .progress .fill{
-      fill: rgba(0, 0, 0, 0);
-      stroke-width: 50;
-      transform: translate(290px, 800px)rotate(-120deg);
-}
-.progress .track{
-      stroke: rgb(56, 71, 83);
-}
-.progress .fill {
-      stroke: rgb(255, 255, 255);
-      stroke-linecap: round;
-      stroke-dasharray: 2160;
-      stroke-dashoffset: 2160;
-      transition: stroke-dashoffset 1s;
-}
-.progress.blue .fill {
-      stroke: rgb(104, 214, 198);
-}
-.progress.green .fill {
-      stroke: rgb(186, 223, 172);
-}
-.progress .value, .progress .text {
-      font-family: 'Open Sans';
-      fill: #000;
-      text-anchor: middle;
-}
-.progress .value {
-      font-size: 180px;
-}
-.progress .text {
-      font-size: 120px;
-}
-.noselect {
-      -webkit-touch-callout: none;
-      -webkit-user-select: none;
-      -khtml-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-      user-select: none;
-      cursor: default;
-      box-shadow: none;
-}
+      .progress{
+            width: 200px;
+            height: 250px;
+            margin: 40px 10px 0px 10px;
+      }
+      .progress .track, .progress .fill{
+            fill: rgba(0, 0, 0, 0);
+            stroke-width: 50;
+            transform: translate(290px, 800px)rotate(-120deg);
+      }
+      .progress .track{
+            stroke: #d3d3d3;
+      }
+      .progress .fill {
+            stroke: rgb(255, 255, 255);
+            stroke-linecap: round;
+            stroke-dasharray: 2160;
+            stroke-dashoffset: 2160;
+            transition: stroke-dashoffset 1s;
+      }
+      .progress.blue .fill {
+            stroke: #4e4d75;
+      }
+      .progress .value, .progress .text {
+            font-family: 'Open Sans';
+            fill: #000;
+            text-anchor: middle;
+      }
+      .progress .value {
+            font-size: 180px;
+      }
+      .progress .text {
+            font-size: 120px;
 
-.progress {
-      background-color: white;
-}
+      }
+      .noselect {
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            cursor: default;
+            box-shadow: none;
+      }
 
-
+      .progress {
+            background-color: white;
+      }
 
 /*Goals Page*/
 
@@ -380,9 +378,12 @@ body {
 
 /*Media Queries*/
 
-@media (min-width: 992px) and (max-width: 1500px) {
+@media (min-width: 992px) and (max-width: 1395px) {
       #intro {
             height: 800px;
+      }
+      #knowledge {
+            height: 850px;
       }
 }
 
@@ -398,7 +399,6 @@ body {
             height: 1000px;
       }
       .portText {
-            position: relative;
             top: -700px;
             margin-top: 0px;
             padding-right: 0px;
@@ -410,18 +410,30 @@ body {
             -webkit-transform: scale(0.8,0.8); /* Safari */
             transform: scale(0.8,0.8);
       }
+      #knowledge {
+            height: 800px;
+      }
       .knowledgeText {
-
             padding-left: 0px;
       }
 }
 
-@media (max-width: 560px) {
-      .triangles {
+@media (max-width: 698px) {
+      #knowledge {
+            height: 1200px;
+      }
+}
 
+@media (max-width: 560px) {
+
+      .triangles {
+            top: -300px;
             -ms-transform: scale(0.5,0.5); /* IE 9 */
             -webkit-transform: scale(0.5,0.5); /* Safari */
             transform: scale(0.5,0.5);
+      }
+      #knowledge {
+            height: 1500px;
       }
 }
 
