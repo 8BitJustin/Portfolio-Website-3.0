@@ -319,6 +319,58 @@ body {
 
 /*For Skills Chart*/
 
+.progress{
+      width: 150px;
+      height: 240px;
+}
+.progress .track, .progress .fill{
+      fill: rgba(0, 0, 0, 0);
+      stroke-width: 50;
+      transform: translate(290px, 800px)rotate(-120deg);
+}
+.progress .track{
+      stroke: rgb(56, 71, 83);
+}
+.progress .fill {
+      stroke: rgb(255, 255, 255);
+      stroke-linecap: round;
+      stroke-dasharray: 2160;
+      stroke-dashoffset: 2160;
+      transition: stroke-dashoffset 1s;
+}
+.progress.blue .fill {
+      stroke: rgb(104, 214, 198);
+}
+.progress.green .fill {
+      stroke: rgb(186, 223, 172);
+}
+.progress .value, .progress .text {
+      font-family: 'Open Sans';
+      fill: #000;
+      text-anchor: middle;
+}
+.progress .value {
+      font-size: 180px;
+}
+.progress .text {
+      font-size: 120px;
+}
+.noselect {
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      cursor: default;
+      box-shadow: none;
+}
+
+.progress {
+      background-color: white;
+}
+
+
 
 /*Goals Page*/
 
@@ -345,7 +397,7 @@ body {
       #portfolio {
             height: 1000px;
       }
-      .portStory {
+      .portText {
             position: relative;
             top: -700px;
             margin-top: 0px;
@@ -357,6 +409,10 @@ body {
             -ms-transform: scale(0.8,0.8); /* IE 9 */
             -webkit-transform: scale(0.8,0.8); /* Safari */
             transform: scale(0.8,0.8);
+      }
+      .knowledgeText {
+
+            padding-left: 0px;
       }
 }
 

@@ -126,7 +126,26 @@
             <p class="knowledgePara">My dear friend, knowledge in a few of these languages makes this possible. Although I'm still relatively new, I'm pushing myself constantly to keep learning.</p>
         </div>
         <div class="col-md-6">
-
+          <div id="wrapper" class="align-center">
+            <svg class="progress blue noselect" data-progress="70" x="0px" y="0px" viewBox="0 0 776 628">
+              <path class="track" d="M723 314L543 625.77 183 625.77 3 314 183 2.23 543 2.23 723 314z"></path>
+              <path class="fill" d="M723 314L543 625.77 183 625.77 3 314 183 2.23 543 2.23 723 314z"></path>
+              <text class="value" x="50%" y="61%">0%</text>
+              <text class="text" x="50%" y="122%">HTML</text>
+            </svg>
+            <svg class="progress blue noselect" data-progress="60" x="0px" y="0px" viewBox="0 0 776 628">
+              <path class="track" d="M723 314L543 625.77 183 625.77 3 314 183 2.23 543 2.23 723 314z"></path>
+              <path class="fill" d="M723 314L543 625.77 183 625.77 3 314 183 2.23 543 2.23 723 314z"></path>
+              <text class="value" x="50%" y="61%">0%</text>
+              <text class="text" x="50%" y="122%">CSS</text>
+            </svg>
+            <svg class="progress blue noselect" data-progress="50" x="0px" y="0px" viewBox="0 0 776 628">
+              <path class="track" d="M723 314L543 625.77 183 625.77 3 314 183 2.23 543 2.23 723 314z"></path>
+              <path class="fill" d="M723 314L543 625.77 183 625.77 3 314 183 2.23 543 2.23 723 314z"></path>
+              <text class="value" x="50%" y="61%">0%</text>
+              <text class="text" x="50%" y="122%">JS</text>
+            </svg>
+          </div>
         </div>
       </div>
     </div>
@@ -167,6 +186,19 @@
 <!-- Skills Chart -->
 <script>
 
+  var forEach = function (array, callback, scope) {
+  for (var i = 0; i < array.length; i++) {
+    callback.call(scope, i, array[i]);
+  }
+};
+window.onload = function(){
+  var max = 2160;
+  forEach(document.querySelectorAll('.progress'), function (index, value) {
+  percent = value.getAttribute('data-progress');
+    value.querySelector('.fill').setAttribute('style', 'stroke-dashoffset: ' + ((100 - percent) / 100) * max);
+    value.querySelector('.value').innerHTML = percent + '%';
+  });
+}
 
 </script>
   
