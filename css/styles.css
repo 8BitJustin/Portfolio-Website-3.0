@@ -253,6 +253,18 @@ body {
 
 }
 
+.siteText {
+      font-size: 3em;
+      margin: auto;
+      width: 153px;
+      position: relative;
+      top: -1031px;
+      left: -112px;
+      -ms-transform: rotate(-58deg); /* IE 9 */
+    -webkit-transform: rotate(-58deg); /* Safari */
+    transform: rotate(-58deg);
+}
+
 #apps a {
       width: 400px;
       height: 400px;
@@ -276,6 +288,18 @@ body {
       clip-path: polygon(50% 20%, 0% 100%, 100% 100%);
 }
 
+.appText {
+      font-size: 3em;
+      margin: auto;
+      width: 300px;
+      position: relative;
+      top: -1062px;
+      left: -32px;
+      -ms-transform: rotate(-58deg); /* IE 9 */
+    -webkit-transform: rotate(-58deg); /* Safari */
+    transform: rotate(-58deg);
+}
+
 #github a {
       width: 300px;
       height: 300px;
@@ -296,6 +320,24 @@ body {
     
       -webkit-clip-path: polygon(50% 20%, 0% 100%, 100% 100%);
       clip-path: polygon(50% 20%, 0% 100%, 100% 100%);
+}
+
+.githubText {
+      font-size: 3em;
+      margin: auto;
+      width: 153px;
+      position: relative;
+      top: -1075px;
+      left: 40px;
+      -ms-transform: rotate(-58deg); /* IE 9 */
+    -webkit-transform: rotate(-58deg); /* Safari */
+    transform: rotate(-58deg);
+}
+
+.triangles .noUnderline {
+      text-decoration: none;
+      color: #4e4d75;
+      font-weight: bold;
 }
 
 /*Knowledge Page*/
