@@ -160,18 +160,29 @@ body {
       background-color: #FFA812;
       background: #FFA812;
       border-color: transparent;
+      border-bottom: 3px solid white;
 }
 
 .navbar .container .navbar-header a {
-      color: #dee7ef;
+      color: white;
 }
 
 .collapse .nav li a {
-      color: #dee7ef;
+      color: white;
       font-size: 2em;
+      font-family: 'Muli', sans-serif;
 }
 
+.collapse .nav li a:hover {
+      color: #4e4d75;
+}
 
+.navbar-right .navbar-nav > .active > a,
+.navbar-right .navbar-nav > .active > a:hover,
+.navbar-right .navbar-nav > .active > a:focus {
+      color: #555;
+      background-color: white;
+}
 
 /*Home Page*/
 
@@ -337,7 +348,7 @@ body {
 .triangles .noUnderline {
       text-decoration: none;
       color: #4e4d75;
-      font-weight: bold;
+
 }
 
 /*Knowledge Page*/
@@ -401,10 +412,11 @@ body {
       }
       .progress .value {
             font-size: 180px;
+            font-family: 'Muli', sans-serif;
       }
       .progress .text {
-            font-size: 120px;
-
+            font-size: 100px;
+            font-family: 'Muli', sans-serif;
       }
       .noselect {
             -webkit-touch-callout: none;
