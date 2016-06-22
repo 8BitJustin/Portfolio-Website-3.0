@@ -160,7 +160,7 @@ body {
       background-color: #FFA812;
       background: #FFA812;
       border-color: transparent;
-      border-bottom: 3px solid white;
+
 }
 
 .navbar .container .navbar-header a {
@@ -348,7 +348,6 @@ body {
 .triangles .noUnderline {
       text-decoration: none;
       color: #4e4d75;
-
 }
 
 /*Knowledge Page*/
@@ -407,7 +406,7 @@ body {
       }
       .progress .value, .progress .text {
             font-family: 'Open Sans';
-            fill: #000;
+            fill: #FFA812;
             text-anchor: middle;
       }
       .progress .value {
@@ -459,16 +458,16 @@ body {
             width: 50%;
       }
       #portfolio {
-            height: 1000px;
+            height: 800px;
       }
       .portText {
-            top: -700px;
+            top: -1000px;
             margin-top: 0px;
             padding-right: 0px;
       }
       .triangles {
             position: relative;
-            top: -50px;
+            top: -140px;
             -ms-transform: scale(0.8,0.8); /* IE 9 */
             -webkit-transform: scale(0.8,0.8); /* Safari */
             transform: scale(0.8,0.8);
@@ -499,7 +498,7 @@ body {
             transform: scale(0.5,0.5);
       }
       #knowledge {
-            height: 1500px;
+            height: 1300px;
       }
 }
 
