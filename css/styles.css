@@ -63,7 +63,7 @@
       background-size: cover;
 }
 
-#goals {
+#contact {
       background: #4e4d75;
       position: relative;
       width: 100%;
@@ -432,10 +432,11 @@ body {
             background-color: white;
       }
 
-/*Goals Page*/
+/*Contact Page*/
 
-.goalsHeader {
-      margin-top: 200px;
+.contactHeader {
+      margin-top: 50px;
+      font-size: 3em;
 }
 
 /*Media Queries*/
